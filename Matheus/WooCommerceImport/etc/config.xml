@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+<modules>
+          <Matheus_WooCommerceImport>
+          <version>0.1.0</version>
+          </Matheus_WooCommerceImport>
+</modules>
+  
+<global>
+          <helpers>
+              <matheus_woocommerceimport>
+                  <class>Matheus_WooCommerceImport_Helper</class>
+              </matheus_woocommerceimport>
+          </helpers>
+          <blocks>
+              <matheus_woocommerceimport>
+                  <class>Matheus_WooCommerceImport_Block</class>
+              </matheus_woocommerceimport>
+          </blocks>
+</global>
+  
+<admin>
+          <routers>
+              <woocommerceimport_admin>
+              <use>admin</use>
+                  <args>
+                      <module>Matheus_WooCommerceImport</module>
+                      <frontName>woocommerce_import</frontName>
+                  </args>
+              </woocommerceimport_admin>
+          </routers>
+</admin>
+  
+</config>
+            

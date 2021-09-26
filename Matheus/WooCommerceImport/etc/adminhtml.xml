@@ -1,0 +1,32 @@
+<config>
+    <menu>
+        <catalog>
+            <children>
+                <matheus_woocommerceimport translate="title" module="matheus_woocommerceimport">
+                    <title>WooCommerce Import</title>
+                    <sort_order>8</sort_order>
+                    <action>woocommerce_import/index/index</action>
+                </matheus_woocommerceimport>
+            </children>
+        </catalog>
+    </menu>
+    <acl>
+    <resources>
+        <all>
+            <title>Allow Everything</title>
+        </all>
+        <admin>
+            <children>
+                <catalog module="matheus_woocommerceimport" translate="title">
+                    <children>
+			 <matheus_woocommerceimport module="matheus_woocommerceimport" translate="title">
+                            <title>WooCommerce Import</title>
+			    <sort_order>20</sort_order>
+			 </matheus_woocommerceimport>
+                    </children>
+                </catalog>  
+            </children>
+        </admin>
+    </resources>
+</acl>
+</config>    
