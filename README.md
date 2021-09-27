@@ -14,9 +14,10 @@ Add the folder `Matheus` inside `/app/code/community/` and add the file `Matheus
 ## How to use
 After installation a new submenu named `WooCommerce Import` will be created at the menu `Catalog` in your admin panel. Click in it to enter the module's page.
 
-![image](https://user-images.githubusercontent.com/55641441/134807427-4853ef9e-d06b-44a1-bd58-15c0e69edb56.png)
+![image](https://user-images.githubusercontent.com/55641441/134852949-a6059ddb-7124-4343-8145-8889e30fdbf9.png)
 
-Now, you just need to fill the fields with your credentials to start the import proccess. You can get the necessary keys following this tutorial: [WooCommerce API Credentials](https://woocommerce.github.io/woocommerce-rest-api-docs/#authentication)
+Now, you just need to fill the fields with your credentials and click in `Import` to start the proccess. 
 
-![image](https://user-images.githubusercontent.com/55641441/134807443-f8251e50-a924-41ab-9846-3c061054dd91.png)
+![image](https://user-images.githubusercontent.com/55641441/134853252-27b065a4-07c8-4fe0-9749-554352f8e90e.png)
 
+Obs.: You can generate the `Consumer Key` and the `Consumer Secret` following this tutorial: [WooCommerce API Credentials](https://woocommerce.github.io/woocommerce-rest-api-docs/#authentication)
