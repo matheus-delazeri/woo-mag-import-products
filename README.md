@@ -1,5 +1,5 @@
 # WooMag Import
-A Magento 1.9 module that imports all products from your WooCommerce store.
+A Magento 1.9 module that imports all products from your WooCommerce store in WordPress.
 
 ## Module informations
 `Package/Namespace`: "Matheus"  
