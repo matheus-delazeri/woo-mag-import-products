@@ -8,17 +8,17 @@ class Matheus_WooCommerceImport_IndexController extends Mage_Adminhtml_Controlle
 
 		$block_content = "
 		<form action='$url' method='post' enctype='multipart/form-data'> 
-		  <h4>Digite o domínio do seu site WordPress:</h4>
-		  <input type='text' name='site-url' id='site-url'>
+		  <h4>WordPress domain:</h4>
+		  <input type='text' name='site-url' id='site-url' placeholder='https://yourdomain'>
 		  <br><br>
-		  <h4><b>Consumer key</b> :</h4>
+		  <h4><b>Consumer key</b>:</h4>
 		  <input type='text' name='consumer-key' id='consumer-key'>
 		  <br><br>
-		  <h4><b>Consumer secret</b> :</h4>
+		  <h4><b>Consumer secret</b>:</h4>
 		  <input type='text' name='consumer-secret' id='consumer-secret'>
 		  <br><br>
 		  <input type='hidden' name='form_key' value='$urlValue'>
-		  <input type='submit' class='btn-export' value='Importar' name='import'>
+		  <input type='submit' class='btn-export' value='Import' name='import'>
 		</form>
 		<style type='text/css'>
 		.btn-export{

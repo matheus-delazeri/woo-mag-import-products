@@ -1,21 +1,22 @@
-# Integração WooGet
-Módulo para Magento 1.9 que realiza a a importação de produtos de sua loja WooCommerce para a sua loja Magento.
+# WooMag Import
+A Magento 1.9 module that imports all products from your WooCommerce store.
 
-## Informações do módulo
+## Module informations
 `Package/Namespace`: "Matheus"  
 
 `Modulename`: "WooCommerceImport"
 
 `codepool`: "community"  
 
-## Como instalar
-Adicione a pasta `Matheus` dentro de `/app/code/community/` e o arquivo `Matheus_Export.xml` dentro de `/app/etc/modules/`
+## How to install
+Add the folder `Matheus` inside `/app/code/community/` and add the file `Matheus_WooCommerceImport.xml` inside `/app/etc/modules/`.
 
-## Como usar
-Depois de realizar a instalação, você notará um novo submenu chamado `WooCommerce Import` dentro do menu `Catalog` em seu painel administrativo. Clique no mesmo para entrar na página do módulo.
+## How to use
+After installation a new submenu named `WooCommerce Import` will be created at the menu `Catalog` in your admin panel. Click in it to enter the module's page.
 
 ![image](https://user-images.githubusercontent.com/55641441/134807427-4853ef9e-d06b-44a1-bd58-15c0e69edb56.png)
 
-Agora, basta preencher os campos abaixo e clicar no botão "Importar" para que os produtos possam ser puxados pela API do WooCommerce e criados em sua loja virtual Magento.
+Now, you just need to fill the fields with your credentials to start the import proccess. You can get the necessary keys following this tutorial: [WooCommerce API Credentials](https://woocommerce.github.io/woocommerce-rest-api-docs/#authentication)
 
 ![image](https://user-images.githubusercontent.com/55641441/134807443-f8251e50-a924-41ab-9846-3c061054dd91.png)
+
